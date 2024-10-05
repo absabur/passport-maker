@@ -1,38 +1,192 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: column;
+  width: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+.container {
+  width: 100%;
+  overflow: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.passport {
+  width: 1500px;
+  margin: 2rem;
+  position: relative;
+}
+
+.passport img {
+  width: 100%;
+}
+
+.passport p {
+  position: absolute;
+  font-size: 23px;
+  font-weight: 600;
+  text-transform: uppercase;
+  opacity: 0.6;
+  letter-spacing: -2px;
+  padding: 0;
+  margin: 0;
+  max-width: 750px;
+  text-align: left;
+}
+
+.full-name {
+  top: 199px;
+  left: 30%;
+}
+.fathers-name {
+  top: 245px;
+  left: 30%;
+}
+.mothers-name {
+  top: 291px;
+  left: 30%;
+}
+.address {
+  top: 383px;
+  left: 30%;
+  max-width: 750px;
+  text-align: left;
+}
+.emergency-name {
+  top: 517px;
+  left: 30%;
+}
+.relationship {
+  top: 565px;
+  left: 30%;
+}
+.e-address {
+  top: 612px;
+  left: 30%;
+  max-width: 750px;
+  text-align: left;
+}
+.telephone {
+  top: 697px;
+  left: 30%;
+}
+
+.passport-2-1 {
+  top: 1217px;
+  left: 65%;
+  font-size: 33px !important;
+  font-weight: 650 !important;
+}
+
+.nid-2-1 {
+  top: 1434px;
+  left: 55%;
+  font-size: 33px !important;
+  font-weight: 650 !important;
+}
+.bottom-nid-passport {
+  top: 1947px;
+  max-width: 1373px !important;
+  width: 100%;
+  overflow: hidden;
+  left: 4%;
+  font-size: 41px !important;
+  font-weight: 600 !important;
+  letter-spacing: 7px !important;
+  text-align: justify !important;
+  color: #0a080c;
+}
+
+.last-name {
+  top: 1289px;
+  left: 31%;
+  font-size: 33px !important;
+  font-weight: 650 !important;
+}
+
+.f-m-name {
+  top: 1365px;
+  left: 31%;
+  font-size: 33px !important;
+  font-weight: 650 !important;
+}
+
+.dob {
+  top: 1503px;
+  left: 31%;
+  font-size: 33px !important;
+  font-weight: 650 !important;
+}
+.delevery {
+  top: 1653px;
+  left: 31%;
+  font-size: 33px !important;
+  font-weight: 650 !important;
+}
+
+.expiry {
+  top: 1728px;
+  left: 31%;
+  font-size: 33px !important;
+  font-weight: 650 !important;
+}
+
+.bottom-name {
+  top: 1873px;
+  max-width: 1373px !important;
+  overflow: hidden;
+  left: 4%;
+  font-size: 41px !important;
+  font-weight: 600 !important;
+  letter-spacing: 7px !important;
+  color: #0a080c;
+}
+
+.personal-image-1 {
+  position: absolute;
+  width: 350px !important;
+  height: 460px !important;
+  object-fit: cover;
+  top: 61.3%;
+  left: 2.8%;
+}
+.personal-image-2 {
+  position: absolute;
+  width: 90px !important;
+  height: 170px !important;
+  object-fit: contain;
+  top: 57.2%;
+  left: 88.6%;
+  opacity: 0.8;
+}
+.personal-image-3 {
+  position: absolute;
+  width: 120px !important;
+  height: 170px !important;
+  object-fit: contain;
+  top: 67.9%;
+  left: 87%;
+  opacity: 0.6;
+}
+
+.signature {
+  position: absolute;
+  height: 50px;
+  width: 200px !important;
+  object-fit: contain;
+  top: 1733px;
+  left: 61%;
+}
+
+.dob2 {
+  top: 1510px;
+  left: 87%;
+  opacity: 0.4 !important;
+  font-size: 33px !important;
+  font-weight: 650 !important;
 }
