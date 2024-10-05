@@ -101,6 +101,7 @@
   letter-spacing: 7px !important;
   text-align: justify !important;
   color: #0a080c;
+  white-space: nowrap;
 }
 
 .last-name {
@@ -146,6 +147,7 @@
   font-weight: 600 !important;
   letter-spacing: 7px !important;
   color: #0a080c;
+  white-space: nowrap;
 }
 
 .personal-image-1 {
