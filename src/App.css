@@ -5,6 +5,7 @@
   justify-content: center;
   flex-direction: column;
   width: 100%;
+  padding-top: 2rem;
 }
 
 .container {
@@ -189,4 +190,23 @@
   opacity: 0.4 !important;
   font-size: 33px !important;
   font-weight: 650 !important;
+}
+
+.download {
+  width: 100%;
+  max-width: 300px;
+  margin: 2rem auto;
+  margin-bottom: 0;
+  cursor: pointer;
+  font-size: 20px;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: tomato;
+  color: white;
+  transition: all 0.1s;
+}
+
+.download:hover {
+  box-shadow: 0 0 10px black;
 }

@@ -55,7 +55,9 @@ const Passport = () => {
   return (
     <div className="container">
       <Form data={Data} />
-      <button onClick={takeScreenshot}>Save Passport</button>
+      <button className="download" onClick={takeScreenshot}>
+        Download Passport
+      </button>
       <div className="passport" id="passport">
         <p className="full-name">{`${data.firstName} ${data.middleName} ${data.lastName}`}</p>
         <p className="fathers-name">{data.fathersName}</p>
